@@ -2,6 +2,7 @@
 *.pyc
 
 # Personal Files
+*.note
 *.notes
 *.discussions
 *.discussion
