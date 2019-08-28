@@ -1,2 +1,6 @@
 *.class
 *.pyc
+
+# Personal Files
+*.notes
+*.discussions
