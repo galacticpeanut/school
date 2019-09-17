@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 62.5%;
+  background-color:   #450000;
+  color: white;
+  margin: 0;
+   
+}
+
+.site-header {
+  background-image: url(img/banner.webp);
+  background-size: cover;
+  background-position: left center;
+  height: 30vh;
+}
+
+.icon-img {
+ width: 5%;
+}
+
+.main-header {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 90%;
+  padding: 1rem;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+.content-header {
+  display:flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+nav a:hover {
+  color:red;
+}
+
+.main-content {
+  min-height: 500px;
+  margin-left: 5%;
+  margin-top: 5%;
+  padding-bottom: 15%;
+}
+
+td {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.form-table td {
+  text-align: left;
+}
+
+.search-bar {
+  margin-left: 35%;
+  padding-bottom: 15px;
+}
+
+fieldset {
+  width: 25%;
+  margin-left: 30%;
+  font-size: 1.5rem;
+}
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: black;
+  height: 15vh;
+  text-align: center;
+}
+
+.form-btn {
+  margin-left: 15%;
+}
