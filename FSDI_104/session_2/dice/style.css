@@ -1,0 +1,27 @@
+.playground {
+  background: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+
+.dice {
+  flex-basis: calc(30% - 1rem);
+  height: 100px;
+  padding: 2px;
+  border: 1px solid orangered;
+  background: white;
+}
+
+button {
+  background: orangered;
+  color: white;
+  padding:10px;
+  height: 50px;
+  width: 100px;
+}
+
+.dice-img {
+  width: 30%;
+}
