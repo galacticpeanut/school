@@ -43,6 +43,7 @@ const items = [item1, item2, item3, item4, item5, item6];
 
 // general functions
 const reset =  function() {
+  document.getElementById('console').innerHTML='';
   c1.energy=100
   c2.energy=100;
   c1.display();
