@@ -1,0 +1,15 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+}
+
+.site-header {
+  background-image: url('img/banner.webp');
+  background-size: cover;
+  background-position: center center;
+  height: 40vh;
+}
+
+#contact {
+  text-align: center;
+}
