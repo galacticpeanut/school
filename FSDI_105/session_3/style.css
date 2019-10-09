@@ -1,0 +1,108 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+
+}
+
+.site-in {
+  background: rgb(0,62,124);
+  color: white;
+/*  background-image: url('img/banner.webp');
+  background-size: cover;
+  background-position: center center; */
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+h1 {
+  margin: 20px 40px;
+}
+
+.site-in nav a {
+  color: white;
+  display: inline-block;
+  background: #1c2557;
+  margin: 25px 10px;
+  font-size: 1.5rem;
+  padding:20px;
+  font-style: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main-in {
+  height: 70vh;
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-logo {
+  width: 500px;
+}
+
+.img-logo-register {
+  width: 500px;
+  text-align: center;
+}
+
+.list-pets {
+  text-align: center;
+  margin: 50px 200px;
+  margin-top: 50px;
+}
+
+h2 {
+  color: black;
+  display: block;
+  padding: 20px;
+  width: 70%;
+}
+
+.footer-in {
+  background: rgb(0, 62, 124);
+  color: white;
+  font-size: 14px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-footer nav a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  margin: 20px 40px;
+  display: inline-block;
+}
+
+.footer-in .info {
+  justify-content: center;
+  text-align: center;
+}
+
+.register-form {
+  margin-left: 0px;
+}
+
+input[type="text"],select {
+  width: 400px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid rgb(159,159,159);
+
+}
+
+.btn {
+  background: #a7a7a7;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 100px;
+  font-family: 'Indie Flower', cursive;
+}
+

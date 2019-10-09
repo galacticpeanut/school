@@ -1,0 +1,24 @@
+
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header-site {
+  background: rgba(3, 124, 9, 0.5);
+  height: 30vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.input-text {
+  width: 80%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border:none;
+}
