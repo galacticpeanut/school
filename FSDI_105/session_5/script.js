@@ -129,8 +129,7 @@ function remove(petId) {
 
 
 function hide(petId) {
-  var tr = document.getElementById(petId);
-  tr.setAttribute("style", "display:none;");
+  $("#" + petId).hide();
 }
 
 function search() {
@@ -153,11 +152,5 @@ function search() {
 }
 
 function reset() {
-  for (var i = 0;i<salon.pets.length;i++) {
-    var tr = document.getElementById(salon.pets[i]['id'])
-      if (tr.getAttribute('style') == "display:none;") {
-        tr.removeAttribute('style');
-      }
-
-    }
+  $("tr").show();
 }
