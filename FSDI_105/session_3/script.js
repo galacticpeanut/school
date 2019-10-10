@@ -103,7 +103,7 @@ function displayTable(aPet) {
   <td>${aPet['breed']}</td>
   <td>${aPet['service']}</td>
   <td>${aPet['ownerName']}</td>
-  <td>${aPet['ownerPhone']}</td>
+  <td>${aPet['contactPhone']}</td>
 </tr>`;
   tBody.innerHTML+=row;
 }
