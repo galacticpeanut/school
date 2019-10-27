@@ -28,6 +28,31 @@ function clearForm() {
   $("#txtImage").val("");
 }
 
+function displayMessage(message) {
+  var container = $("#messageList");
+  var template = `<li><a href='mailto:${message['mail']}'>${message['name']}</a> - ${message['message']} </li>`;
+  container.append(template);
+}
+
+function loadMessages() {
+  var name = "Robert"
+  $.ajax({
+    url: serverURL + "/api/messages/" + name,
+    type: "GET",
+    success: function(res) {
+      console.log("Server says", res);
+      for(var i = 0; i < res.length; i++) {
+        displayMessage(res[i]);
+      }
+    },
+    error: function(error) {
+      console.log("Error loading messages", error);
+    }
+
+  });
+}
+
+
 function saveItem() {
   // get values
   var code = $("#txtCode").val();
@@ -127,6 +152,9 @@ function init() {
   // events
   $("#btnSave").click(saveItem);
 
+
+  // load messages
+  loadMessages();
   solveHomework();
 }
 

@@ -38,69 +38,87 @@
 
 
   <div class="container">
-    <h1>Register Items to sell on the store</h1>
+
 
       <div id="alert" class="hide item-saved">
         <h6>Item Saved!</h6>
       </div>
 
-    <form>
-      <div class="form-group row">
-        <label class="offset-2 col-3 col-form-label">Title</label>
-        <div class="col-5">
-          <input id="txtTitle" class="form-control" type="text">
-        </div>
-    </div>
 
-    <div class="form-group row">
-      <label class="offset-2 col-3 col-form-label">Code</label>
-      <div class="col-5">
-        <input id="txtCode" class="form-control" type="text">
+      <div class="row">
+        <div class="col-7">
+          <h4>Register Items to sell on the store</h4>
+          <!-- Register Form -->
+          <form>
+            <div class="form-group row">
+              <label class="col-3 col-form-label">Title</label>
+              <div class="col-5">
+                <input id="txtTitle" class="form-control" type="text">
+              </div>
+          </div>
+      
+          <div class="form-group row">
+            <label class="col-3 col-form-label">Code</label>
+            <div class="col-5">
+              <input id="txtCode" class="form-control" type="text">
+            </div>
+          </div>
+      
+          <div class="form-group row">
+              <label class="col-3 col-form-label">Price</label>
+              <div class="col-5">
+                <input id="txtPrice" class="form-control" type="number">
+              </div>
+          </div>
+      
+          <div class="form-group row">
+              <label class="col-3 col-form-label">Description</label>
+              <div class="col-5">
+                <input id="txtDescription" class="form-control" type="text">
+              </div>
+          </div>
+      
+          <div class="form-group row">
+              <label class="col-3 col-form-label">Category</label>
+              <div class="col-5">
+                <input id="txtCategory" class="form-control" type="text">
+              </div>
+          </div>
+      
+          <div class="form-group row">
+              <label class="col-3 col-form-label">Rating</label>
+              <div class="col-5">
+                <input id="txtRating" class="form-control" min="0" max="5" type="number">
+              </div>
+          </div>
+      
+          <div class="form-group row">
+              <label class="col-3 col-form-label">Image</label>
+              <div class="col-5">
+                <input id="txtImage" class="form-control" type="text">
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col btn-container">
+              <button id="btnSave" type="button" class="btn btn-primary ">Save Item</button>
+            </div>
+          </div>
+      
+          </form>
+        </div>
+    
+        <div class="col-5">
+          <!-- Messages -->
+          <h4>List of messages</h4>
+          <ul id="messageList">
+
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div class="form-group row">
-        <label class="offset-2 col-3 col-form-label">Price</label>
-        <div class="col-5">
-          <input id="txtPrice" class="form-control" type="number">
-        </div>
-    </div>
 
-    <div class="form-group row">
-        <label class="offset-2 col-3 col-form-label">Description</label>
-        <div class="col-5">
-          <input id="txtDescription" class="form-control" type="text">
-        </div>
-    </div>
 
-    <div class="form-group row">
-        <label class="offset-2 col-3 col-form-label">Category</label>
-        <div class="col-5">
-          <input id="txtCategory" class="form-control" type="text">
-        </div>
-    </div>
-
-    <div class="form-group row">
-        <label class="offset-2 col-3 col-form-label">Rating</label>
-        <div class="col-5">
-          <input id="txtRating" class="form-control" min="0" max="5" type="number">
-        </div>
-    </div>
-
-    <div class="form-group row">
-        <label class="offset-2 col-3 col-form-label">Image</label>
-        <div class="col-5">
-          <input id="txtImage" class="form-control" type="text">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col btn-container">
-        <button id="btnSave" type="button" class="btn btn-primary ">Save Item</button>
-      </div>
-    </div>
-
-    </form>
     
   </div>
 

@@ -3,15 +3,41 @@ body {
   color: #45a5fe;
 }
 
-h1 {
+h4 {
   text-align: center;
   color: #45a5fe;
 }
 
+form {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.col-5 h4 {
+  padding-top: 2px;
+}
+.col-7 {
+  border-right: 1px solid  #45a5fe;
+}
 label {
   text-align: right;
 }
 
+#messageList {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+#messageList li {
+  margin: 5px 0px;
+  padding: 5px 8px;
+}
+
+#messageList li:hover {
+  font-weight: bold;
+  background-color: #363840;
+  border: 1px solid #45a5fe;
+}
 .btn-container {
   text-align: center;
 }

@@ -18,3 +18,18 @@ label {
 .btn-container {
   text-align: center;
 }
+
+.hide {
+  display: none;
+}
+
+.message-sent {
+  border: 1px solid #11ca00;
+  background-color:#2ecc71;
+  margin-bottom: 10px;
+}
+
+.message-sent h6 {
+  color: #45a5fe;
+  text-align: center;
+}
