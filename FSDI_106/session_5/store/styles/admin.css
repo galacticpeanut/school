@@ -1,0 +1,32 @@
+body {
+  background-color:  #363840;
+  color: #45a5fe;
+}
+
+
+h1 {
+  text-align: center;
+  color: #45a5fe;
+}
+
+label {
+  text-align: right;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.item-saved {
+  border: 1px solid #11ca00;
+  background-color:#2ecc71;
+}
+
+.item-saved h6 {
+  color: #808b96;
+  text-align: center;
+}

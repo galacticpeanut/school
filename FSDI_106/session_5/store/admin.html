@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- styles -->
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/admin.css">
+  <title>Store Admin</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Galactic Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Catalog <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="admin.html">Admin <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+       <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <h1>Register Items to sell on the store</h1>
+
+      <div id="alert" class="hide item-saved">
+        <h6>Item Saved!</h6>
+      </div>
+
+    <form>
+      <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Title</label>
+        <div class="col-5">
+          <input id="txtTitle" class="form-control" type="text">
+        </div>
+    </div>
+
+    <div class="form-group row">
+      <label class="offset-2 col-3 col-form-label">Code</label>
+      <div class="col-5">
+        <input id="txtCode" class="form-control" type="text">
+      </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Price</label>
+        <div class="col-5">
+          <input id="txtPrice" class="form-control" type="number">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Description</label>
+        <div class="col-5">
+          <input id="txtDescription" class="form-control" type="text">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Category</label>
+        <div class="col-5">
+          <input id="txtCategory" class="form-control" type="text">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Rating</label>
+        <div class="col-5">
+          <input id="txtRating" class="form-control" min="0" max="5" type="number">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="offset-2 col-3 col-form-label">Image</label>
+        <div class="col-5">
+          <input id="txtImage" class="form-control" type="text">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col btn-container">
+        <button id="btnSave" type="button" class="btn btn-primary ">Save Item</button>
+      </div>
+    </div>
+
+    </form>
+    
+  </div>
+
+  <!-- scripts -->
+  <script src="scripts/jquery-3.4.1.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/admin.js"></script>
+</body>
+</html>
