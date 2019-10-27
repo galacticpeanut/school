@@ -89,9 +89,9 @@ function searchCatalog() {
       }
     }  
    
-   console.log("Search Query is ", query);
-  $("#txtSearch").val("");
-  $("#txtSearch").focus();
+  // console.log("Search Query is ", query);
+  // $("#txtSearch").val("");
+  // $("#txtSearch").focus();
 }
 
 /** functions */
@@ -99,15 +99,16 @@ function init() {
   console.log("Catalog Page");
 
   // events
-  $("#btnSearch").click(searchCatalog);
-  $("#txtSearch").keypress(function (e) {
-    if (e.key == "Enter") {
-      searchCatalog();
-      e.preventDefault();
-    }
-  })
+  // $("#btnSearch").click(searchCatalog);
+  // $("#txtSearch").keypress(function (e) {
+  //   if (e.key == "Enter") {
+  //    searchCatalog();
+  //    e.preventDefault();
+  //  }
+  // })
 
-  //  $("#txtSearch").keyup(searchCatalog);
+  // Trying something different
+  $("#txtSearch").keyup(searchCatalog);
   getCatalogFromServer();
 }
 
