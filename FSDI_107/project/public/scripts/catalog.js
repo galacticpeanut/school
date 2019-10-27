@@ -60,7 +60,7 @@ function displayItem(product) {
   <h4>${product['title']}</h4>
   <h6>$ ${product['price']}</h6>
   <p>${product['description']}</p>
-  <button class="btn btn-sm btn-info">Add to Cart</button>
+  <button class="btn btn-outline-primary my-2 my-sm-0">Add to Cart</button>
   </div>`;
 
   $("#catalog").append(pLayout); 
