@@ -1,7 +1,11 @@
+body {
+  background-color:  #363840;
+  color: #45a5fe;
+}
 
 h1 {
   text-align: center;
-  color: #808b96;
+  color: #45a5fe;
 }
 
 label {
@@ -22,6 +26,6 @@ label {
 }
 
 .item-saved h6 {
-  color: #808b96;
+  color: #45a5fe;
   text-align: center;
 }
