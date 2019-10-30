@@ -5,15 +5,19 @@ body {
 
 h4 {
   text-align: center;
-  color: rgb(0,95,173);
+  color: #45a5fe;
   margin-top:20px;
-  border-bottom: 1px solid #45a5fe;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 label {
   text-align: right;
 }
 
+nav {
+  box-shadow: 0px 2px 4px #45a5fe;
+}
 
 .btn-container {
   text-align: center;
