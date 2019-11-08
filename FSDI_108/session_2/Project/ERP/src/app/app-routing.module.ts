@@ -4,7 +4,7 @@ import { TempCalculatorComponent } from './temp-calculator/temp-calculator.compo
 import { HomeComponent } from './home/home.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserListComponent } from './user-list/user-list.component';
-import { UesrRegisterComponent } from './uesr-register/uesr-register.component';
+import { UserRegisterComponent } from './user-register/user-register.component';
 
 
 const routes: Routes = [
@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'converter', component: TempCalculatorComponent },
   { path: 'login', component: UserLoginComponent },
   { path: 'user/list', component: UserListComponent },
-  { path: 'user/new', component: UesrRegisterComponent }
+  { path: 'user/new', component: UserRegisterComponent }
 ];
 
 

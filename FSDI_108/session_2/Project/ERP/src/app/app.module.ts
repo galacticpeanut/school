@@ -8,8 +8,8 @@ import { TempCalculatorComponent } from './temp-calculator/temp-calculator.compo
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { UserLoginComponent } from './user-login/user-login.component';
-import { UesrRegisterComponent } from './uesr-register/uesr-register.component';
-import { UserListComponent } from './user-list/user-list.component'
+import { UserRegisterComponent } from './user-register/user-register.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { UserListComponent } from './user-list/user-list.component'
     NavBarComponent,
     HomeComponent,
     UserLoginComponent,
-    UesrRegisterComponent,
+    UserRegisterComponent,
     UserListComponent
   ],
   imports: [
