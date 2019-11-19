@@ -10,7 +10,16 @@ export class DataService {
   // create an empty user array
   users: User[] = [];
 
-  constructor() { }
+  constructor() {
+    // create a default/admin user
+    var user = new User();
+    user.userName = "admin";
+    user.password = "qwerty";
+    user.firstName = "Admin";
+    user.lastName = "User";
+
+    this.users.push(user);
+  }
 
   public sayHello() {
     console.log("Hello from a service");

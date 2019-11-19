@@ -1,0 +1,14 @@
+h3 {
+  text-align: center;
+  color: darkgrey;
+}
+
+.login-form {
+  border: 1px solid #cfd7f7;
+  margin: auto 25%;
+  background-color: #e6eef6;
+}
+
+.alert {
+  text-align: center;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  isLoggedIn = false;
+  constructor(private shared: SharedService) {
+    this.isLoggedIn = shared.isUserLoggedIn;
+  }
 
   ngOnInit() {
+  }
+
+  getIsLoggedIn() {
+    return this.shared.isUserLoggedIn;
   }
 
 }
