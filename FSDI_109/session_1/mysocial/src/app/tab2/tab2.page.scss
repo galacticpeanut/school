@@ -1,0 +1,15 @@
+.background {
+  --background: linear-gradient(153deg, rgba(0,144,247,1) 0%, rgba(10,81,170,1) 100%);
+}
+
+ion-card-header {
+  background-color: #c5c5c5;
+  color: rgba(0,144,247,1);
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+ion-card {
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+}
