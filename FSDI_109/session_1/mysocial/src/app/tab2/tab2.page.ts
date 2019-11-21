@@ -37,3 +37,6 @@ export class Tab2Page {
     this.model = new Post();
   }
 }
+
+// 1  - Install on your phone: Ionic DevApp *
+// 2 - open it and register for a new account

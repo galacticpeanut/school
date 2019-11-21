@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { DataService } from '../services/data.service';
+import { Post } from '../models/Post';
+import { post } from 'selenium-webdriver/http';
 
 @Component({
   selector: 'app-tab1',
@@ -7,10 +9,14 @@ import { DataService } from '../services/data.service';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  postsToShow: Post[] = [];
 
-  constructor(private data: DataService) {}
+  constructor(private data: DataService) {
+    this.data.getAllPosts().subscribe(res => {
+      this.postsToShow = []; // clear the previous data
 
-  getPostsToDisplay() {
-    return this.data.getAllPosts();
+      this.postsToShow = res;
+      console.log("Event happened");
+    });
   }
 }
