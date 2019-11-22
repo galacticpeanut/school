@@ -42,7 +42,7 @@ export class Tab2Page {
     
     this.camera.getPicture(options).then( imageData => { 
       let base64Image = "data:image/jpeg;base64," + imageData; 
-      console.log(base64Image);
+//      console.log(base64Image);
       this.model.imageUrl = base64Image;
     }, 
       err => { 
