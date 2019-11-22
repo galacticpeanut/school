@@ -15,8 +15,14 @@ export class Tab1Page {
     this.data.getAllPosts().subscribe(res => {
       this.postsToShow = []; // clear the previous data
 
-      this.postsToShow = res;
-      console.log("Event happened");
+      for( var i = 0; i < res.length; i++ ) {
+        var msg = res[i]
+        if(msg.to == "Robert" || 
+          msg.from == "Everyone" || 
+          msg.to == "Everyone") {
+          this.postsToShow.push(msg);
+        }
+      }
     });
   }
 }

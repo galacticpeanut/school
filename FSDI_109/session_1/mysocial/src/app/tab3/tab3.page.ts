@@ -18,7 +18,11 @@ export class Tab3Page {
       this.myFriends = []; // clear prev data
 
       // Filter to show only friends to belong to me
-      this.myFriends = res;
+      for(var i = 0;i < res.length;i++) {
+        if (res[i].belongsTo == 'Robert') {
+          this.myFriends.push(res[i]);
+        }
+      }
     });
   }
 
