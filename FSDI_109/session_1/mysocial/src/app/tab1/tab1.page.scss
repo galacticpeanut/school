@@ -3,30 +3,29 @@
   overflow: hidden;
 }
 .background {
-  --background: linear-gradient(153deg, rgba(0,144,247,1) 0%, rgba(10,81,170,1) 100%);
+  --background: linear-gradient(153deg, rgba(47,47,47,1) 0%, rgba(91,91,91,1) 100%);
 }
 
 
 ion-card {
-  background-color: #fafafa;
-  border-bottom: 1px solid #f0f0f0;
+  background-color: #2f2f2f;
+  border-bottom: 1px solid #2f2f2f;
   margin-top: 12px;
   margin-bottom: 12px;
 }
 
 ion-card-header {
-  background-color: #c5c5c5;
-  color: rgba(0,144,247,1);
-  border-bottom: 1px solid #f0f0f0;
+  background-color: #2f2f2f;
+  color: #45a5fe;
 }
 
 ion-card-title {
   font-size: 20px;
-  color: #3880ff;
+  color: #45a5fe;
 }
 
 ion-card-subtitle {
-  color: rgba(0,144,247,1);
+  color: #45a5fe;
   text-align: right;
   text-transform: none;
   width: 50%;
