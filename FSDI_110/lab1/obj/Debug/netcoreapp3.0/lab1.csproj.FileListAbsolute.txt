@@ -1,0 +1,11 @@
+/home/bz/documents/school/FSDI_110/lab1/bin/Debug/netcoreapp3.0/lab1
+/home/bz/documents/school/FSDI_110/lab1/bin/Debug/netcoreapp3.0/lab1.deps.json
+/home/bz/documents/school/FSDI_110/lab1/bin/Debug/netcoreapp3.0/lab1.runtimeconfig.json
+/home/bz/documents/school/FSDI_110/lab1/bin/Debug/netcoreapp3.0/lab1.runtimeconfig.dev.json
+/home/bz/documents/school/FSDI_110/lab1/bin/Debug/netcoreapp3.0/lab1.dll
+/home/bz/documents/school/FSDI_110/lab1/bin/Debug/netcoreapp3.0/lab1.pdb
+/home/bz/documents/school/FSDI_110/lab1/obj/Debug/netcoreapp3.0/lab1.csprojAssemblyReference.cache
+/home/bz/documents/school/FSDI_110/lab1/obj/Debug/netcoreapp3.0/lab1.AssemblyInfoInputs.cache
+/home/bz/documents/school/FSDI_110/lab1/obj/Debug/netcoreapp3.0/lab1.AssemblyInfo.cs
+/home/bz/documents/school/FSDI_110/lab1/obj/Debug/netcoreapp3.0/lab1.dll
+/home/bz/documents/school/FSDI_110/lab1/obj/Debug/netcoreapp3.0/lab1.pdb
