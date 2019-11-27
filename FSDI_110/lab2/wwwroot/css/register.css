@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+  margin-left: 50px;
+}
+
+.form-horizontal {
+  padding-top: 20px;
+  background-color:  #fffaf4;
+  border: 1px solid rgba(23, 32, 99, 0.23) ;
+
+}
+
+.control-label {
+  text-align: right;
+}
+
