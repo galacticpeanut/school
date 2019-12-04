@@ -1,5 +1,5 @@
 
-namespace Lab2.Models {
+namespace lab2.Models {
   public class Car {
     public int Id {get; set;}
 
@@ -10,17 +10,18 @@ namespace Lab2.Models {
 
     public int Year {get; set;}
 
-    public int PassengerCapacity {get; set;}
+    public string PassengerCapacity {get; set;}
 
-    public int Milage {get; set;}
+    public string Mileage {get; set;}
 
     public string ImageUrl {get; set;}
 
-    public int Stock {get; set;}
+    public string Stock {get; set;}
 
-    public int HP {get; set;}
+    public string HP {get; set;}
 
-    public int Cyls {get; set;}
+    public string Cyls {get; set;}
 
+    public string Description {get; set;}
   }
 }

@@ -1,16 +1,23 @@
 h1 {
   text-align: center;
   margin-left: 50px;
+  color:#566573;
 }
 
-.form-horizontal {
+.register-car-form {
   padding-top: 20px;
-  background-color:  #fffaf4;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(235, 237, 239, 0.5);
   border: 1px solid rgba(23, 32, 99, 0.23) ;
 
 }
 
 .control-label {
   text-align: right;
+}
+
+.error {
+  border: 1px solid red;
 }
 

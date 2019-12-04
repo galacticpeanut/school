@@ -21,6 +21,21 @@ namespace lab2.Controllers
     public IActionResult Register() {
       return View();
     }
+
+    [HttpPost]
+    public IActionResult SaveCar( [FromBody] Car theCar ) {
+      
+      Console.WriteLine("**********************************************************");
+      Console.WriteLine("**********************************************************");
+
+      Console.WriteLine("User wants to save a car year:", theCar);
+
+      // SAVE THE OBJ TO DB
+
+      Console.WriteLine("**********************************************************");
+      Console.WriteLine("**********************************************************");
+      return Json(theCar);
+    }
     // register form
     // ...
 

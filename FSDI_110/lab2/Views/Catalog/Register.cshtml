@@ -1,117 +1,133 @@
-<link href="~/css/register.css" rel="stylesheet">
-<script src="~/js/register.js"></script>
+@section Styles {
+  <link href="~/css/register.css" rel="stylesheet">
+}
+
+@section Scripts {
+  <script src="~/js/register.js"></script>
+}
 
 <h1>Register new Car</h1>
 
-<form class="form-horizontal">
-<fieldset>
+<div class="register-car-form">
+  <form>
+  <fieldset>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="make">Make</label>  
-  <div class="col-md-4">
-  <input id="make" name="make" type="text" placeholder="Make" class="form-control input-md">
-    </div>  
-</div>
-
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="model">Model</label>  
-  <div class="col-md-4">
-  <input id="model" name="model" type="text" placeholder="Model" class="form-control input-md">
-    
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="make">Make</label>  
+    <div class="col-md-4">
+    <input id="txtMake" name="make" type="text" placeholder="Make" class="form-control input-md">
+      </div>  
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="year">Year</label>  
-  <div class="col-md-2">
-  <input id="year" name="year" type="text" placeholder="Year" class="form-control input-md">
-    
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="model">Model</label>  
+    <div class="col-md-4">
+    <input id="txtModel" name="model" type="text" placeholder="Model" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="dailyPrice">Daily Price</label>  
-  <div class="col-md-4">
-  <input id="dailyPrice" name="dailyPrice" type="text" placeholder="Daily Price" class="form-control input-md">
-    
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="year">Year</label>  
+    <div class="col-md-2">
+    <input id="txtYear" name="year" type="text" placeholder="Year" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="mileage">Mileage</label>  
-  <div class="col-md-4">
-  <input id="mileage" name="mileage" type="text" placeholder="Mileage" class="form-control input-md">
-    
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="description">Description</label>  
+    <div class="col-md-4">
+    <input id="txtDescription" name="description" type="text" placeholder="Description" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="horsepower">Horsepower</label>  
-  <div class="col-md-2">
-  <input id="horsepower" name="horsepower" type="text" placeholder="Horsepower" class="form-control input-md">
-    
+
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="dailyPrice">Daily Price</label>  
+    <div class="col-md-2">
+    <input id="txtDailyPrice" name="dailyPrice" type="text" placeholder="Daily Price" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Multiple Radios -->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="inStock">In Stock?</label>
-  <div class="col-md-4">
-  <div class="radio">
-    <label for="inStock-0">
-      <input type="radio" name="inStock" id="inStock-0" value="1" checked="checked">
-      Yes
-    </label>
-	</div>
-  <div class="radio">
-    <label for="inStock-1">
-      <input type="radio" name="inStock" id="inStock-1" value="2">
-      No
-    </label>
-	</div>
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="mileage">Mileage</label>  
+    <div class="col-md-2">
+    <input id="txtMileage" name="mileage" type="text" placeholder="Mileage" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="cylinders">Cylinders</label>  
-  <div class="col-md-2">
-  <input id="cylinders" name="cylinders" type="text" placeholder="Cylinders" class="form-control input-md">
-    
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="horsepower">Horsepower</label>  
+    <div class="col-md-2">
+    <input id="txtHorsepower" name="horsepower" type="text" placeholder="Horsepower" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="imageUrl">Image Url</label>  
-  <div class="col-md-4">
-  <input id="imageUrl" name="imageUrl" type="text" placeholder="Image Url" class="form-control input-md">
-    
+  <!-- Multiple Radios -->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="inStock">In Stock?</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="inStock-0">
+        <input type="radio" name="inStock" id="inStock-0" value="1" checked="checked">
+        Yes
+      </label>
+    </div>
+    <div class="radio">
+      <label for="inStock-1">
+        <input type="radio" name="inStock" id="inStock-1" value="2">
+        No
+      </label>
+    </div>
+    </div>
   </div>
-</div>
 
-<!-- Text input-->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="passengerCapacity">Passenger Capacity</label>  
-  <div class="col-md-2">
-  <input id="passengerCapacity" name="passengerCapacity" type="text" placeholder="Passenger Capacity" class="form-control input-md">
-    
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="cylinders">Cylinders</label>  
+    <div class="col-md-2">
+    <input id="txtCylinders" name="cylinders" type="text" placeholder="Cylinders" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-<!-- Button -->
-<div class="form-group row">
-  <label class="offset-1 col-md-4 control-label" for="submit"></label>
-  <div class="col-md-4">
-    <button id="submit" name="submit" class="btn btn-primary">Submit</button>
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="imageUrl">Image Url</label>  
+    <div class="col-md-4">
+    <input id="txtImageUrl" name="imageUrl" type="text" placeholder="Image Url" class="form-control input-md">
+      
+    </div>
   </div>
-</div>
 
-</fieldset>
-</form>
+  <!-- Text input-->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="passengerCapacity">Passenger Capacity</label>  
+    <div class="col-md-2">
+    <input id="txtPassengerCapacity" name="passengerCapacity" type="text" placeholder="Passenger Capacity" class="form-control input-md">
+      
+    </div>
+  </div>
+  </fieldset>
+  </form>
+  <!-- Button -->
+  <div class="form-group row">
+    <label class="offset-1 col-md-4 control-label" for="btnSave"></label>
+    <div class="col-md-4">
+      <button id="btnSave" name="btnSave" class="btn btn-primary">Save</button>
+    </div>
+  </div>
+
+</div>
