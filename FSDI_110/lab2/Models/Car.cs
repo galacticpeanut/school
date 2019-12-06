@@ -23,5 +23,7 @@ namespace lab2.Models {
     public string Cyls {get; set;}
 
     public string Description {get; set;}
+
+    public string Doors {get; set;}
   }
 }

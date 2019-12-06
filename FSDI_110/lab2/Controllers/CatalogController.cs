@@ -11,6 +11,14 @@ namespace lab2.Controllers
 {
   public class CatalogController : Controller {
 
+    private DataContext dbContext;
+    // class constructor
+    public CatalogController(DataContext context) {
+      this.dbContext = context;
+
+    }
+
+
     // default page
     // to show the catalog of CARS available to rent
     public IActionResult Index() {
@@ -25,20 +33,17 @@ namespace lab2.Controllers
     [HttpPost]
     public IActionResult SaveCar( [FromBody] Car theCar ) {
       
-      Console.WriteLine("**********************************************************");
-      Console.WriteLine("**********************************************************");
+      dbContext.Cars.Add(theCar); // add the car to the table
+      dbContext.SaveChanges();  // save changes
 
-      Console.WriteLine("User wants to save a car year:", theCar);
+      return Json(theCar);  // return the car
 
-      // SAVE THE OBJ TO DB
-
-      Console.WriteLine("**********************************************************");
-      Console.WriteLine("**********************************************************");
-      return Json(theCar);
     }
-    // register form
-    // ...
 
-
+    [HttpGet]
+    public IActionResult GetCatalog() {
+      var carList = dbContext.Cars.ToList(); // retrieve all cars from the table
+      return Json(carList);
+    }
   }
 }

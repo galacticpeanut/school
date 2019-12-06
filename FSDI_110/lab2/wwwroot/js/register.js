@@ -36,7 +36,7 @@ function register() {
     $("#txtDailyPrice").removeClass("error");
   }
 
-  // Homework
+  // Homework Session 3
   /* 
   * Show error message to fix errors when something entered
   * incorrectly in form
@@ -80,7 +80,19 @@ function register() {
       console.log("succeed", res);
 
       // alert that car has been saved
+      
       // clear the form
+      $("#txtDailyPrice").val("");
+      $("#txtMake").val("");
+      $("#txtModel").val("");
+      $("#txtYear").val("");
+      $("#txtPassengerCapacity").val("");
+      $("#txtMileage").val("");
+      $("#txtHorsepower").val("");
+      $("#txtCylinders").val("");
+      $("#txtImageUrl").val("");
+      $("#txtDescription").val("");
+
     },
     error: function(error) {
       console.log("Error", error);
