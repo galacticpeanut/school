@@ -2,3 +2,38 @@ h1 {
   text-align: center;
   color: darkblue;
 }
+
+.item {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: -7px 6px 25px -12px rgba(0, 0, 0, 0.75);
+  width: 1000px !important;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.item .info-title {
+  text-align: right;
+  font-style: italic;
+  display: inline-block;
+  width: 80px;
+}
+
+.item .info-value {
+  font-weight: 500;
+
+}
+
+.item .col-5 {
+  border-left: 1px solid #bbb;
+  background-color: #fafafa;
+}
+
+.item .col-12 {
+  border-top: 1px solid #bbb;
+}
+
+.item img {
+  max-width: 280px;
+}

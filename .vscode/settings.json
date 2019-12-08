@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "${workspaceFolder}/FSDI_110/lab2/carRental.db",
+      "dialect": "SQLite",
+      "name": "carRental"
+    },
+    {
+      "database": "${workspaceFolder}/FSDI_110/lab2/carRental.db",
+      "dialect": "SQLite",
+      "name": "Test"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}

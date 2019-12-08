@@ -48,10 +48,12 @@ function register() {
   if(errorOcurred) {
 
     // show an alert to tell the user to fix error
+    $("#errorAlert").removeClass("hide");
     return; // do not continue, we have errors
   }
 
   // hide the alert
+  $("#errorAlert").addClass("hide");
 
   // create an object
   var car = {
@@ -80,7 +82,13 @@ function register() {
       console.log("succeed", res);
 
       // alert that car has been saved
-      
+      $("#savedAlert").removeClass("hide")
+
+      setTimeout(function() {
+          $("#savedAlert").addClass("hide");
+        },
+        3000 // 10_000 = 10 seconds
+      )
       // clear the form
       $("#txtDailyPrice").val("");
       $("#txtMake").val("");
