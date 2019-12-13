@@ -36,9 +36,12 @@ def save_log():
   writer.close() # closes the file stream (to release the file)
   print("Logs saved!!")
 
-def print_header(header_text):
+def print_header(text):
   clear()
-  print(header_text.rjust(50))
+  print("\n")
+  print("*" * 40)
+  print(text.rjust(30))
+  print("*" * 40)
 
 
 def print_all(header_text):
