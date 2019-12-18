@@ -16,4 +16,7 @@ def print_menu():
   print("[9] Register a Sell")
   print("[10] See log of events")
 
+  print("[11] Search items")
+  print("[12] Search logs")
+
   print("[x] Exit")
