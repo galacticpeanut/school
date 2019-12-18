@@ -216,7 +216,9 @@ def search_items():
   temp_list = []
 
   for item in items:
-    if (query in str(item.id) or query in str(item.stock) or query in str(item.price) or query in str(item.title).lower() or query in str(item.price) or query in str(item.category)):
+    if (query in str(item.id) or query in str(item.stock) or
+    query in str(item.price) or query in str(item.title).lower() or 
+    query in str(item.price) or query in str(item.category).lower()):
       temp_list.append(item)
   print_all("Found Items!", temp_list)
 
