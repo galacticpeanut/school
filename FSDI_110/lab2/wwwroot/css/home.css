@@ -1,0 +1,13 @@
+.logo {
+  width: 150px;
+  margin-left: 0;
+}
+
+.logo-box {
+  display: inline-block;
+  margin-left: 20%;
+}
+.header {
+  color: rgb(30, 75, 0);
+  display: inline-block;
+}

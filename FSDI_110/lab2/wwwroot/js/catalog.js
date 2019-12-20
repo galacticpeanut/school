@@ -55,6 +55,12 @@ function displayCar(car) {
         <p>${car['description']}</p>
       </div>
     </div>
+    <div class="row">
+      <div class="offset-4 col-6">
+        <button id="btnSave" name="btnSave" class="btn btn-success">Rent Now!</button>
+      </div>
+    </div>
+
 
 <!-- 
 Competency report
